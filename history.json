@@ -1,0 +1,14 @@
+[
+  {
+    "time": "2026-02-19 18:18",
+    "mode": "Quizzer",
+    "input": "elif st.session_state.mode == \"History\":\n\n    st.markdown(\"## \ud83d\udd58 Learning History\")\n\n    with open(HISTORY_FILE, \"r\") as f:\n        history = json.load(f)\n\n    if not history:\n        st.info(\"No history yet.\")\n    else:\n        for h in reversed(history):\n            with st.expander(f\"{h['time']} \u2022 {h['mode']}\"):\n                st.markdown(\n                    f\"<div class='history-card'>\"\n                    f\"<b>Input:</b><br>{h['input']}<br><br>\"\n                    f\"<b>Output:</b><br>{h['output']}\"\n                    f\"</div>\",\n                    unsafe_allow_html=True\n                )",
+    "output": "Score: 0/4"
+  },
+  {
+    "time": "2026-02-19 18:18",
+    "mode": "Quizzer",
+    "input": "elif st.session_state.mode == \"History\":\n\n    st.markdown(\"## \ud83d\udd58 Learning History\")\n\n    with open(HISTORY_FILE, \"r\") as f:\n        history = json.load(f)\n\n    if not history:\n        st.info(\"No history yet.\")\n    else:\n        for h in reversed(history):\n            with st.expander(f\"{h['time']} \u2022 {h['mode']}\"):\n                st.markdown(\n                    f\"<div class='history-card'>\"\n                    f\"<b>Input:</b><br>{h['input']}<br><br>\"\n                    f\"<b>Output:</b><br>{h['output']}\"\n                    f\"</div>\",\n                    unsafe_allow_html=True\n                )",
+    "output": "Score: 0/4"
+  }
+]
