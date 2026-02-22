@@ -2,6 +2,7 @@
 This repository highlights my experience from the IBM SkillsBuild Internship, where I gained hands-on knowledge of autonomous tools, API usage, and real-world machine learning workflows. The internship strengthened my conceptual understanding and professional skills, including resume building and project development.
 <img width="1847" height="903" alt="image" src="https://github.com/user-attachments/assets/84a0b3bd-3a1b-44f6-bb8c-6cad04f25ad4" />
 ✨ Features
+
 📘 Explainer
 
 Explains concepts in simple and easy-to-understand language
@@ -44,7 +45,30 @@ Tracks:
 
 Topics practiced
 
-Quiz scores
+⚙️ Requirements
+🐍 Python
+
+Main programming language used to build the project
+
+📦 Libraries Used
+
+Streamlit:
+Used to create the web interface of the application
+
+Requests:
+Used to connect and communicate with AI APIs
+
+python-dotenv:
+Used to store and load API keys securely
+
+Pandas:
+Used to manage quiz data and learning records
+
+Matplotlib / Plotly:
+
+Used to show progress charts in the Dashboard
+
+Quiz scores:
 
 Accuracy and activity levels
 
