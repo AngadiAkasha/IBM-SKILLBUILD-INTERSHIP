@@ -68,6 +68,17 @@ Matplotlib / Plotly:
 
 Used to show progress charts in the Dashboard
 
+🔐 API Key(free api gemini,hugging faces,grok...etc)
+
+Required to access AI features
+
+Stored safely in a .env file
+
+Not uploaded to GitHub for security
+
+📥 Installation:(all in one line of installation)
+pip install streamlit requests python-dotenv pandas matplotlib
+
 Quiz scores:
 
 Accuracy and activity levels
