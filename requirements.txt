@@ -3,4 +3,4 @@ PyPDF2
 pandas
 numpy
 python-dotenv
-google-generativeai
+google-genai
